@@ -1,0 +1,37 @@
+title: Pablo Gomez - Senior Software Engineer
+name: Pablo Gomez
+tagline: "Senior Software Engineer" 
+subtitle: |
+    Specialized in Ruby and Elixir
+email: pablonahuelgomez@gmail.com
+description: >-
+    Software Engineer based in Buenos Aires, Argentina focused on Ruby and Elixir.
+    Open for new opportunities. Let's connect and build something together.
+baseurl: ""
+url: "https://pablogomez0.github.io"
+linkedin_username: pablonahuelgomez
+github_username:  pablogomez0
+google_analytics: G-GZ4T5S2EVD
+timezone: America/Argentina/Buenos_Aires
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate-v2
+  - jemoji
+  - jekyll-gist
+  - jekyll-assets
+  - jekyll-remote-theme
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
