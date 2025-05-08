@@ -38,7 +38,6 @@
             height: 60vw;
             max-width: 350px;
             max-height: 350px;
-            background: white;
             border-radius: 50%;
             display: flex;
             flex-direction: column;
@@ -68,21 +67,12 @@
         .contact a:hover {
             text-decoration: underline;
         }
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 7px;
-            filter: grayscale(100%);
-            transition: filter 0.6s ease-in-out;
-        }
         .profile-img:hover {
             filter: grayscale(90%);
         }
 
         .details {
-            opacity: 0;
+            opacity: 20;
             transform: translateY(-20px);
             transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
         }
@@ -91,43 +81,13 @@
             transform: translateY(0);
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const grayscaleColors = Array.from({ length: 1000 }, (_, i) => `rgb(${i / 4}, ${i / 4}, ${i / 4})`);
-            const background = document.createElement("div");
-            background.classList.add("background");
-            document.body.appendChild(background);
-            
-            for (let i = 20; i >= 1; i--) {
-                let circle = document.createElement("div");
-                circle.classList.add("circle");
-                circle.style.width = `${i * 8}vw`;
-                circle.style.height = `${i * 8}vw`;
-                circle.style.backgroundColor = grayscaleColors[Math.floor(Math.random() * grayscaleColors.length)];
-                background.appendChild(circle);
-                
-                circle.addEventListener("mouseenter", function() {
-                    let randomColor = grayscaleColors[Math.floor(Math.random() * psychedelicColors.length)];
-                    circle.style.backgroundColor = randomColor;
-                });
-                
-                circle.addEventListener("mouseleave", function() {
-                    let originalColor = grayscaleColors[Math.floor(Math.random() * grayscaleColors.length)];
-                    setTimeout(() => {
-                        circle.style.backgroundColor = originalColor;
-                    }, 42);
-                });
-            }
-        });
-    </script>
 </head>
 <body>
     <div class="container">
-        <img src="https://avatars.githubusercontent.com/u/200812222?v=4" alt="Pablo Gomez" class="profile-img">
         <div class="details">
-          <h1>Pablo Gomez</h1>
-          <h2>Software Engineer</h2>
-          <p class="contact"><a href="mailto:pablonahuelgomez@gmail.com">pablonahuelgomez@gmail.com</a></p>
+          <h1>pablo gomez</h1>
+          <h2>senior ruby on rails software engineer</h2>
+          <p class="contact"><a href="mailto:pablonahuelgomez@gmail.com">contact me</a></p>
         </div>
     </div>
 </body>
