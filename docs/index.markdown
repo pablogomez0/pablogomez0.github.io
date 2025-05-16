@@ -4,7 +4,6 @@
 
 layout: home
 ---
-![Universe icon](/universe.jpeg){: width="200" }
 
 ## [Professional Experience](/professional-experience)
 
