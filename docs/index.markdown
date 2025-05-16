@@ -5,8 +5,10 @@
 layout: home
 ---
 
-This blog acts as my CV plus some articles written by me, welcome to my online presence.
+This blog acts as my CV plus some articles written by me. Welcome to my online presence.
 
 {% for post in site.posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <h3>{{ post.title }}</h3>
+  <p>{{ post.excerpt }}</p>
+  <h3><a href="{{ post.url }}">click to read further...</a></h3>
 {% endfor %}
