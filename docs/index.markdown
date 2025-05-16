@@ -4,10 +4,11 @@
 
 layout: home
 ---
+![Universe icon](/universe.jpeg){: width="400" .center-image border-radius="50%" display="block" margin="0 auto" }
 
-This blog acts as Pablo Gomez CV plus some articles written by Pablo on programming and things in general.
+## [Professional Experience](/professional-experience)
 
-Welcome to his online presence.
+## [Education](/education)
 
 ---
 
