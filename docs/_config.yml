@@ -18,13 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: pablo gomez
+title: Pablo Gomez - Software Engineer
+name: Pablo Gomez
+tagline: "A tagline for my blog"
+# tagline: "A tagline for your blog"
 subtitle: |
-    software engineer
+    Ruby on Rails Software Engineer
+    and Open Source Contributor
 email: pablonahuelgomez@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The online presence of Pablo Gomez
-  
+  Online appeareance of Pablo Gomez
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pablogomez0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: pablonahuelgomez
@@ -32,13 +35,16 @@ github_username:  pablogomez0
 
 timezone: America/Argentina/Buenos_Aires
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
-theme: minimal
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate-v2
+  - jemoji
+  - jekyll-gist
+  - jekyll-assets
   - jekyll-remote-theme
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
