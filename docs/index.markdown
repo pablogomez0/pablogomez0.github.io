@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![Universe icon](/universe.jpeg){: width="400" .center-image border-radius="50%" display="block" margin="0 auto" }
+![Universe icon](/universe.jpeg){: width="200" }
 
 ## [Professional Experience](/professional-experience)
 
