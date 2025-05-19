@@ -5,12 +5,6 @@
 layout: home
 ---
 
-This blog acts as Pablo Gomez CV plus some articles written by Pablo on programming and things in general.
-
-Welcome to his online presence.
-
----
-
 {% for post in site.posts %}
   <h3>{{ post.title }}</h3>
   <p>{{ post.excerpt }}</p>

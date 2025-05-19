@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Education"
-date: 2007-05-16
+date: 2001-03-15
 ---
 
 ## Master's degree, Information Technology at Universidad Nacional de Quilmes
