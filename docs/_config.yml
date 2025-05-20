@@ -20,14 +20,15 @@
 
 title: Pablo Gomez - Software Engineer
 name: Pablo Gomez
-tagline: "A tagline for my blog"
-# tagline: "A tagline for your blog"
+tagline: "Ruby/Elixir Software Engineer" 
 subtitle: |
-    Ruby on Rails Software Engineer
+    Ruby/Elixir Software Engineer
     and Open Source Contributor
 email: pablonahuelgomez@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Online appeareance of Pablo Gomez
+    Software Engineer based in Buenos Aires, Argentina focused on Ruby and Elixir.
+    Open for new opportunities to grow as a developer.
+    Let's connect and build something.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pablogomez0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: pablonahuelgomez
