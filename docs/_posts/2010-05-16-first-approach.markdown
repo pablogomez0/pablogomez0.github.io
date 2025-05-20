@@ -4,6 +4,7 @@ title: "First approach to programming"
 date: 2025-05-16
 published: false
 ---
+
 #### 2002 - 2006
 This was written in English as an exercise. Pablo started learning programming around 2004. That was during his time in secondary school in Argentina. Why programming? It was included in the electronics curriculum. After having fun designing electronic circuits and soldering electronic boards, Pablo learned that computers could be programmed. His first approach to programming was this simple C program:
 

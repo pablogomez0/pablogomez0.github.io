@@ -12,3 +12,5 @@ layout: home
 
   ---
 {% endfor %}
+
+{% include dark-theme.html %}

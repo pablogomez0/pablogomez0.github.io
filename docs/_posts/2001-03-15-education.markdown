@@ -24,3 +24,5 @@ date: 2001-03-15
 **Activities and societies:** Programming, Electronics, Literature, Computing
 
 **Skills:** C (Programming Language), Electronics
+
+{% include dark-theme.html %}

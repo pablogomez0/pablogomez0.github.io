@@ -66,3 +66,5 @@ Worked on billing systems built with Ruby On Rails to process transactions acros
 Developed scalable web apps using C# (ASP.NET MVC) and Java (Spring Boot), with SQL Server for database management. Migrated legacy .NET web services to Java, improving system maintainability and reducing deployment errors. Implemented front-end components with JavaScript/jQuery, enhancing user experience for 1000+ clients. Collaborated in Agile sprints, delivering features like back-office tools ahead of deadlines. Balanced full-time development with university coursework, showcasing strong prioritization skills.
 
 **Skills:** Java · ASP.NET · C# · JavaScript · Spring Framework · MS SQL
+
+{% include dark-theme.html %}
