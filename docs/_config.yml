@@ -33,6 +33,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pablogomez0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: pablonahuelgomez
 github_username:  pablogomez0
+google_analytics: G-GZ4T5S2EVD
 
 timezone: America/Argentina/Buenos_Aires
 # Build settings
