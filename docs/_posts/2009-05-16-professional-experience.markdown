@@ -5,7 +5,7 @@ date: 2009-05-16
 ---
 
 ## Platform Software Engineer at Fudo
-#### Jul 2025 - Present · 6 mos
+#### Jul 2025 - Present · 5 mos
 #### Buenos Aires, Argentina · Remote
 ##### Platform Engineering · Infrastructure & DevOps
 Building and maintaining scalable platform infrastructure to support development teams. Implementing CI/CD pipelines, monitoring solutions, and automation tools to improve developer productivity and system reliability. Working with Kubernetes, Docker, and cloud technologies to ensure high availability and performance. Developing internal tools and platforms that streamline deployment processes and enhance operational efficiency. Collaborating with engineering teams to establish best practices for infrastructure as code and platform operations.
