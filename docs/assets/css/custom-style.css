@@ -1,0 +1,207 @@
+/* Custom Theme - Purple/Teal Vibrant Design */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+body,
+body.vsc-dark {
+  background: linear-gradient(135deg, #1a0b2e 0%, #16213e 100%) !important;
+  color: #e8eaf6 !important;
+  font-family: 'Poppins', sans-serif !important;
+  line-height: 1.7 !important;
+}
+
+/* Links with gradient hover effect */
+body a {
+  color: #00d4ff !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+body a:hover {
+  color: #a855f7 !important;
+  border-bottom: 2px solid #a855f7 !important;
+}
+
+/* Headers with gradient text */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  background: linear-gradient(135deg, #00d4ff 0%, #a855f7 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.8em !important;
+}
+
+body h1 {
+  font-size: 2.5em !important;
+}
+
+body h2 {
+  font-size: 2em !important;
+}
+
+body h3 {
+  font-size: 1.5em !important;
+}
+
+body h4 {
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+}
+
+body h5 {
+  font-size: 1em !important;
+  font-weight: 600 !important;
+}
+
+/* Code blocks */
+body pre, body code {
+  background: rgba(26, 11, 46, 0.6) !important;
+  color: #00d4ff !important;
+  font-family: 'Fira Code', monospace !important;
+  border-radius: 8px !important;
+  padding: 0.2em 0.4em !important;
+  border: 1px solid rgba(168, 85, 247, 0.3) !important;
+}
+
+body pre {
+  padding: 1em !important;
+}
+
+/* Blockquotes */
+body blockquote {
+  background: rgba(168, 85, 247, 0.1) !important;
+  color: #e8eaf6 !important;
+  border-left: 5px solid #a855f7 !important;
+  border-radius: 0 8px 8px 0 !important;
+  padding: 1em 1.5em !important;
+  margin: 1.5em 0 !important;
+  font-style: italic !important;
+}
+
+/* Tables */
+body table {
+  background: rgba(26, 11, 46, 0.4) !important;
+  color: #e8eaf6 !important;
+  border-color: rgba(168, 85, 247, 0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+body th {
+  background: rgba(168, 85, 247, 0.2) !important;
+  color: #00d4ff !important;
+  font-weight: 600 !important;
+  padding: 12px !important;
+  border-color: rgba(168, 85, 247, 0.3) !important;
+}
+
+body td {
+  padding: 10px !important;
+  border-color: rgba(168, 85, 247, 0.2) !important;
+}
+
+body tr:hover {
+  background: rgba(0, 212, 255, 0.05) !important;
+}
+
+/* Horizontal rules */
+body hr {
+  border: none !important;
+  height: 2px !important;
+  background: linear-gradient(90deg, transparent, #a855f7, transparent) !important;
+  margin: 2em 0 !important;
+}
+
+/* Form elements */
+body input, body select, body textarea, body button {
+  background: rgba(26, 11, 46, 0.6) !important;
+  color: #e8eaf6 !important;
+  border: 2px solid rgba(168, 85, 247, 0.4) !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  transition: all 0.3s ease !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body input:focus, body select:focus, body textarea:focus {
+  outline: none !important;
+  border-color: #00d4ff !important;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3) !important;
+}
+
+body button {
+  cursor: pointer !important;
+  font-weight: 600 !important;
+}
+
+body button:hover {
+  background: rgba(168, 85, 247, 0.3) !important;
+  border-color: #a855f7 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.4) !important;
+}
+
+/* Selection */
+body ::selection {
+  background: rgba(168, 85, 247, 0.4) !important;
+  color: #fff !important;
+}
+
+/* Paragraph spacing */
+body p {
+  margin-bottom: 1.2em !important;
+}
+
+/* List styling */
+body ul, body ol {
+  padding-left: 2em !important;
+}
+
+body li {
+  margin-bottom: 0.5em !important;
+}
+
+/* Strong/Bold text */
+body strong, body b {
+  color: #00d4ff !important;
+  font-weight: 600 !important;
+}
+
+/* Emphasis/Italic text */
+body em, body i {
+  color: #c4b5fd !important;
+}
+
+/* Add subtle shadow to main content */
+.site-header, .site-footer {
+  background: rgba(26, 11, 46, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 2px solid rgba(168, 85, 247, 0.3) !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a0b2e !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00d4ff 0%, #a855f7 100%) !important;
+  border-radius: 6px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #a855f7 0%, #00d4ff 100%) !important;
+}
