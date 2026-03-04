@@ -8,7 +8,7 @@ date: 2009-05-16
 #### Jul 2025 - Present 
 #### Buenos Aires, Argentina · Remote
 ##### Platform Engineering · Infrastructure & DevOps
-Building and maintaining scalable platform infrastructure to support development teams. Implementing monitoring solutions, and automation tools to improve developer productivity and system reliability. Working with Prometheus, OpenTelemetry, and Sentry as technologies to ensure high availability and performance. Developing internal tools to enhance operational efficiency. Collaborating with engineering teams to establish best practices for platform operations.
+Built and maintain scalable platform infrastructure that developers rely on. I focused on monitoring, automation, and reliability—using Prometheus, OpenTelemetry, and Sentry to keep systems healthy. Also developed internal tools and helped teams adopt better practices together.
 
 **Skills:** Platform Engineering · Ruby · Prometheus · OpenTelemetry · Software Profiling
 
@@ -16,7 +16,7 @@ Building and maintaining scalable platform infrastructure to support development
 #### May 2022 - Nov 2024 · 2 yrs 7 mos
 #### Buenos Aires, Argentina · Remote
 ##### FinTech Company · Backend Software Development
-Led the integration of a third-party CRM system, ensuring seamless data synchronization and workflow automation. Maintained and optimized a high-traffic Ruby on Rails application, resolving problems that impacted transaction processing and data integrity. Upgraded deprecated dependencies, enhancing security and system compatibility. Refactored monolithic components into modular services, significantly reducing technical debt and accelerating feature development. Optimized complex PostgreSQL queries, slashing report generation time from minutes to seconds while improving database efficiency. Streamlined the deployment pipeline using CI/CD tools (CircleCI, GitHub Actions, Docker), minimizing downtime during releases. Designed and implemented new features with GDPR compliance, ensuring data protection standards were met. Collaborated cross-functionally in Agile/Scrum environments, refining user stories and acceptance criteria to align business needs with technical execution.
+Led the integration of a third-party CRM system with careful attention to data accuracy and workflow automation. Maintained a high-traffic Ruby on Rails application, keeping transactions secure and reliable. Upgraded dependencies for better security, refactored monolithic code into modular services—which drastically reduced debt and let us move faster. I spent time optimizing database queries and the deployment pipeline, turning report generation from minutes into seconds. Everything was built with GDPR in mind. Loved the cross-functional work with teams in fast-paced Agile cycles.
 
 **Skills:** Ruby on Rails · Ruby · .NET Core · FinTech · Technical Project Leadership
 
@@ -24,7 +24,7 @@ Led the integration of a third-party CRM system, ensuring seamless data synchron
 #### Jun 2021 - May 2022 · 1 yr
 #### Buenos Aires, Argentina · Remote
 ##### FinTech Company · Backend Software Development
-Architected and developed an automated report generation system using Ruby on Rails, Sidekiq, and PostgreSQL, enabling daily processing of complex financial reports with high accuracy. Designed an intuitive custom UI for financial analysts to dynamically configure report templates, eliminating 80% of manual work. Optimized performance through background job batching (Sidekiq Pro) and Redis caching, reducing peak memory usage by 40%. Spearheaded Agile/TDD adoption in a fully remote, global team, coordinating cross-time-zone collaboration to ensure zero-downtime releases. Mentored junior developers via pair programming and rigorous code reviews, boosting team velocity by 30% and test coverage to 90%+.
+Designed an automated report generation system (Rails, Sidekiq, PostgreSQL) that analysts could configure themselves—cutting manual work by 80%. Optimized it with smart caching and job batching, slashing memory use by 40%. I championed TDD and Agile practices across a remote, global team, which helped us ship without breaking things. One of the best parts: mentoring junior developers and watching them grow alongside the team.
 
 **Skills:** Ruby On Rails · Ruby · Elixir · Technical Project Leadership · FinTech
 
@@ -32,13 +32,13 @@ Architected and developed an automated report generation system using Ruby on Ra
 #### Mar 2017 - Feb 2021 · 4 yrs
 #### Buenos Aires, Argentina · Remote
 ##### Bioinformatics Data Processing
-Developed Ruby-based solutions to streamline bioinformatics data analysis, enabling researchers to process complex datasets more efficiently. Collaborated with a U.S. team to enhance a genomic data platform, implementing new visualization tools to make insights more accessible.
+Built Ruby tools to help researchers process bioinformatics data more effectively. Worked with a great U.S. team to add visualization features that made data insights easier to understand.
 
 ##### E-Commerce System Development
-Built a secure ticket purchasing system using Stripe Connect, simplifying payment processing for users. Designed an intuitive Vue.js checkout interface to improve transaction completion rates.
+Built a secure ticket purchasing system with Stripe Connect. Designed a clean Vue.js checkout flow that made buying tickets frictionless.
 
 ##### Application Performance Optimization
-Improved responsiveness of a legacy Java application by optimizing database queries through JPA/Hibernate refinements. Contributed across the stack as needed, from backend API enhancements to frontend interface improvements.
+Improved a legacy Java application by optimizing its database layer. I worked across the full stack—backend APIs, frontend UI—whatever the team needed.
 
 
 **Skills:** Ruby on Rails · Ruby · Stripe Connect · Vue.js · React.js
@@ -47,7 +47,7 @@ Improved responsiveness of a legacy Java application by optimizing database quer
 #### Jun 2020 - Dec 2020 · 7 mos
 #### Buenos Aires, Argentina · Remote
 ##### Real-time Data Monitoring
-Developed a scalable Elixir/Phoenix backend for real-time solar panel monitoring, processing daily data points (irradiance, energy output). Designed fault-tolerant APIs to integrate third-party hardware (e.g., inverters, sensors), ensuring uptime via OTP supervision trees and circuit-breaker patterns.
+Built an Elixir/Phoenix backend for real-time solar panel monitoring. Created APIs that reliably talked to hardware, using OTP and circuit-breaker patterns to keep everything stable.
 
 **Skills:** Elixir · JavaScript · Vue.js
 
@@ -55,7 +55,7 @@ Developed a scalable Elixir/Phoenix backend for real-time solar panel monitoring
 #### Nov 2015 - Mar 2017 · 1 yr 5 mos
 #### New York, United States · Remote
 ##### Fullstack Software Development
-Designed and implemented new features across backend (Ruby on Rails) and frontend (JavaScript), enhancing user experience and system functionality. Boosted response times in high-traffic modules (searches, payments) through caching (Redis), query tuning (MySQL), and Elasticsearch optimizations. Worked in a remote team, practicing TDD, pair programming, and CI/CD (CircleCI + Ansible) to ensure high-quality, iterative delivery. Integrated third-party APIs, expanding system capabilities while maintaining security and scalability. Led user story creation, acceptance testing, and feature planning, bridging technical and business requirements.
+Designed features across the full stack (Rails backend, JavaScript frontend) while making sure the user experience stayed smooth. Optimized databases and caching to keep search and payment pages fast. Worked remotely with a strong focus on TDD, pair programming, and clean CI/CD practices. I loved bridging the gap between technical decisions and business goals—making sure features truly solved real problems.
 
 **Skills:** Ruby on Rails · Ruby · React.js · JavaScript
 
@@ -63,7 +63,7 @@ Designed and implemented new features across backend (Ruby on Rails) and fronten
 #### Mar 2012 - Nov 2015 · 3 yrs 9 mos
 #### Buenos Aires, Argentina · On-site
 ##### Fullstack Software Development
-Worked on billing systems built with Ruby On Rails to process transactions across Latin America. Designed scalable APIs handling different payment gateways in daily transactions. Mentored developers, conducting code reviews and fostering best practices in clean code, performance optimization, and Agile workflows. Developed test automation for web services using Ruby + Selenium, improving testing efficiency and reducing regression time.
+Built billing systems (Ruby on Rails) that processed transactions reliably across Latin America. Designed APIs to handle diverse payment gateways. Mentored developers through code reviews and helped teams adopt better practices. Created test automation that made our testing smarter and faster.
 
 **Skills:** Ruby On Rails · Ruby · JavaScript · MongoDB · Postgres
 
@@ -71,8 +71,7 @@ Worked on billing systems built with Ruby On Rails to process transactions acros
 #### Nov 2009 - Mar 2012 · 2 yrs 5 mos
 #### Buenos Aires, Argentina · On-site
 ##### Fullstack Software Development
-Developed scalable web apps using C# (ASP.NET MVC) and Java (Spring Boot), with SQL Server for database management. Migrated legacy .NET web services to Java, improving system maintainability and reducing deployment errors. Implemented front-end components with JavaScript/jQuery, enhancing user experience for 1000+ clients. Collaborated in Agile sprints, delivering features like back-office tools ahead of deadlines. Balanced full-time development with university coursework, showcasing strong prioritization skills.
+Built web applications in C# and Java, serving 1000+ clients. Migrated legacy .NET services to Java, which made the system easier to maintain and deploy. Worked across the full stack on everything from database design to UI. Balanced full-time work with university studies—a chapter that taught me focus and time management.
 
 **Skills:** Java · ASP.NET · C# · JavaScript · Spring Framework · MS SQL
 
-{% include dark-theme.html %}
